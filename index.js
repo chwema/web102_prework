@@ -36,7 +36,7 @@ function addGamesToPage(games) {
 
         // add the class game-card to the list
         gameCard.classList.add('game-card');
-    }
+        }
         // set the inner HTML using a template literal to display some info 
         // about each game
         // TIP: if your images are not displaying, make sure there is space
@@ -48,7 +48,7 @@ function addGamesToPage(games) {
         `;
 
         // append the game to the games-container
-
+        document.querySelector('.games-container').appendChild(gameCard);
 }
 
 // call the function we just defined using the correct variable
