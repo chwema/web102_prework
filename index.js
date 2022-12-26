@@ -35,7 +35,7 @@ function addGamesToPage(games) {
         const gameCard = document.createElement('div');
 
         // add the class game-card to the list
-
+        gameCard.classList.add('game-card');
     }
         // set the inner HTML using a template literal to display some info 
         // about each game
