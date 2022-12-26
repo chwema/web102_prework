@@ -36,7 +36,7 @@ function addGamesToPage(games) {
 
         // add the class game-card to the list
         gameCard.classList.add('game-card');
-        }
+        
         // set the inner HTML using a template literal to display some info 
         // about each game
         // TIP: if your images are not displaying, make sure there is space
@@ -49,6 +49,7 @@ function addGamesToPage(games) {
 
         // append the game to the games-container
         document.querySelector('.games-container').appendChild(gameCard);
+    }
 }
 
 // call the function we just defined using the correct variable
@@ -66,7 +67,8 @@ addGamesToPage(GAMES_JSON);
 const contributionsCard = document.getElementById("num-contributions");
 
 // use reduce() to count the number of total contributions by summing the backers
-
+const totalBackers = GAMES_JSON.reduce((acc, game) => acc + game.backers, 0);
+contributionsCard.innerHTML = totalBackers;
 
 // set the inner HTML using a template literal and toLocaleString to get a number with commas
 
