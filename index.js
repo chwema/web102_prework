@@ -41,7 +41,11 @@ function addGamesToPage(games) {
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
-
+        gameCard.innerHTML = `
+        <img src="${game.img}" alt="${game.name}" class="game-img">
+        <h2>${game.name}</h2>
+        <p>${game.description}</p>
+        `;
 
         // append the game to the games-container
 
