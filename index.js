@@ -96,11 +96,12 @@ function filterUnfundedOnly() {
     deleteChildElements(gamesContainer);
 
     // use filter() to get a list of games that have not yet met their goal
-
-
+    const filterGamesNotMet = GAMES_JSON.filter((game) => game.pledged < game.goal);
+    console.log(filterGamesNotMet);
     // use the function we previously created to add the unfunded games to the DOM
-
+    addGamesToPage(filterGamesNotMet);
 }
+filterUnfundedOnly();
 
 // show only games that are fully funded
 function filterFundedOnly() {
