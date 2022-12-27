@@ -74,7 +74,7 @@ contributionsCard.append(totalBackers.toLocaleString())
 
 // grab the amount raised card, then use reduce() to find the total amount raised
 const raisedCard = document.getElementById("total-raised");
-// let totalRaised = GAMES_JSON.reduce((acc, game) => acc + game.pledged, 0);
+const totalRaised = GAMES_JSON.reduce((acc, game) => acc + game.pledged, 0);
 
 // set inner HTML using template literal
 
