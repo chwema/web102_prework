@@ -22,11 +22,19 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+![Video Walkthrough](web102_prework.gif)
 
+<<<<<<< HEAD
+<img src='https://github.com/chwema/web102_prework/blob/0ccb317e7266fd3071e53d6af338918b7925f68d/web102_prework.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with LiceCAP 
+=======
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
+>>>>>>> parent of 65ed790 (Trying to add a video walkthrough)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
