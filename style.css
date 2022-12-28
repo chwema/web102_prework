@@ -4,6 +4,13 @@ body {
     font-family: 'Cabin';
     background-color: #D0B8A8;
 }
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
 
 #tentacles {
     width: 50px;
@@ -36,7 +43,7 @@ body {
 }
 
 #num-contributions, #total-raised, #num-games {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #games-container {
@@ -63,6 +70,7 @@ body {
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px #85586f;
+    transition: 0.3s;
 }
 
 #button-container {
@@ -70,9 +78,19 @@ body {
 }
 
 button {
+    background-color: #F8EDE3;
+    color: black;
     font-family: 'Cabin';
     border: none;
+    font-size: 18px;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #85586f;
+    color: white;
+    cursor: pointer;
 }
