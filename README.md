@@ -38,6 +38,8 @@ GIF created with LiceCAP
 
 Describe any challenges encountered while building the app.
 
+The discovery of the secret keys was fascinating. As a result, I found it engaging and motivating. There were times, however, when I entered a few keys incorrectly and had to start over. Essentially, it was a well-rounded set of challenges. While I encountered some difficulties with GitHub, it was still interesting to learn how to operate it on my own. This was my first GIF creation, and I had never added one to my GitHub repo.
+
 ## License
 
     Copyright [2022] [name of copyright owner]
